@@ -7,6 +7,8 @@ Explanation: Quick Sort is a comparison-based sorting algorithm known for its ef
 
 Quick Sort works by selecting a pivot, partitioning the array, and recursively sorting the subarrays. 
 
+<img width="409" alt="quick sort" src="https://github.com/ATWIINETIRZAH/Design-and-Analysis-of-Algorithms/assets/117368965/b68a93d5-d137-4cfa-b5ed-017d46cd9a0f">
+
 Analysis: 
 Quick Sort has an average-case time complexity of O(n log n) and is often faster than other sorting algorithms in practice. However, its worst-case time complexity is O(n^2) when poorly chosen pivots lead to unbalanced partitions.
 
@@ -17,6 +19,8 @@ Explanation: Counting Sort is a non-comparison-based sorting algorithm that work
 It creates a "counting array" to store the count of each unique element in the input array.
 Then, it uses the counting array to reconstruct the sorted output array.
 It counts the occurrences of each element and uses this information to place elements in their correct sorted positions.
+
+<img width="524" alt="counting sort" src="https://github.com/ATWIINETIRZAH/Design-and-Analysis-of-Algorithms/assets/117368965/0e52961a-9b0d-43af-882d-f1906e82d39a">
 
 
 Analysis: 
@@ -31,6 +35,9 @@ In the heapification phase, the input array is transformed into a binary heap, w
 Once the binary heap is built, the largest (for max-heap) or smallest (for min-heap) element (the root) is removed and placed at the end of the sorted array.
 The heap property is then restored by sifting down the new root, and this process is repeated until the entire array is sorted.
 It builds a max-heap (for ascending order) from the input array and repeatedly removes the maximum element (the root) and inserts it into the sorted portion of the array.
+
+<img width="409" alt="heap sort" src="https://github.com/ATWIINETIRZAH/Design-and-Analysis-of-Algorithms/assets/117368965/1f3d4135-f2e4-42f0-a268-c740353309cd">
+
 
 Analysis:
 Time Complexity: Best-case - O(n log n), Average-case - O(n log n), Worst-case - O(n log n).
