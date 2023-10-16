@@ -89,3 +89,12 @@ After sorting, the code prints the sorted list.
 Time Complexity: Best-case - O(n log n), Average-case - O(n log n), Worst-case - O(n log n).
 Heap Sort has a consistent time complexity, making it suitable for various scenarios.
 It is an in-place sorting algorithm but not a stable one.
+
+Graphical representation of merge, selection and insertion sorting algorithms.
+These sorting algorithms were implemented on the same list of size 30.(as shown in their respective files in the repository)
+<img width="453" alt="image" src="https://github.com/ATWIINETIRZAH/Design-and-Analysis-of-Algorithms/assets/117368965/90b1e7b1-4591-49f5-9509-17d51a0024e3">
+
+The above was implemented on google collab(Link below)
+https://colab.research.google.com/drive/1Ov0Im_27O7rLwhXLDVFXGXZHZGPwp-2H
+
+
