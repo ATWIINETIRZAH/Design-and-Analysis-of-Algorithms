@@ -60,6 +60,7 @@ Question 2(1)
 
 Question 2
 **Pseudo code**
+
 function find_max(array):
     maximum_value = array[0]
     for i from 1 to length of array:
